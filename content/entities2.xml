@@ -1,0 +1,17 @@
+<entities anm2root="gfx/" version="1">
+    <entity id="739" variant="0" name="The Unforgiving" baseHP="400" stageHP="0" boss="1" bossID="84" champion="0" collisionDamage="1" collisionMass="75" collisionRadius="20" friction="1" numGridCollisionPoints="12" shadowSize="22" portrait="71" anm2path="the_unforgiving.anm2" gridCollision="walls" bestiary="true" bestiaryTransform="0,10,1" bestiaryAnim="Walk">
+        <gibs amount="12" blood="1" bone="1" eye="0" gut="1" large="1" />
+        <preload-snd id="104" /> <!-- SOUND_MONSTER_GRUNT_0 -->
+        <preload-snd id="119" /> <!-- SOUND_MONSTER_YELL_A -->
+        <preload-snd id="115" /> <!-- SOUND_MONSTER_ROAR_0 -->
+	    <preload id="7" variant="1" /> <!-- Brimstone animation-->
+	    <preload id="1000" variant="50" subtype="1" /> <!-- Brimstone impact animation-->
+	    <preload-snd id="5" /> <!-- SOUND_BLOOD_LASER -->
+    </entity>
+    <entity anm2path="grid_spikes.anm2" baseHP="0" boss="0" champion="0" collisionDamage="1" collisionMass="100" collisionRadius="13" friction="0" id="739" name="Custom Spikes" numGridCollisionPoints="0" shadowSize="0" stageHP="0" variant="1" shutdoors="false" portrait="61" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Appear">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" rock="0" />
+    </entity>
+</entities>
+
+<!-- Taken and modified from Dark One -->
+<!-- Custom spikes taken and modified from Stone Grimace -->
